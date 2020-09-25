@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 80vw;
+	margin: auto;
+	padding: 10px;
+}
+
+div.row {
+	display: flex;
+}
+
+div.column {
+	flex: 50%;
+	padding: 10px;
+	height: 300px;
+}
+
+section.stand header {
+	padding: 10px;
+	background-color: grey;
+
+	color: white;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+section.stand table {
+	width: 95%;
+	margin-left: 5%;
+	margin-top: 5px;
+	border: 1px solid grey;
+	border-collapse: collapse;
+
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+}
+
+section.stand thead tr th {
+	vertical-align: top;
+	text-align: left;
+	color: white;
+	font-size: 12pt;
+
+	background-color: grey;
+	padding: 5px;
+}
+
+section.stand thead tr th:nth-child(1) {
+	border-right: 1px solid white;
+}
+
+section.stand thead tr th:nth-child(2) {
+	border-right: 1px solid white;
+}
+
+section.stand tbody tr td {
+	vertical-align: top;
+	text-align: left;
+	color: black;
+	font-size: 12pt;
+	
+	padding: 5px;
+}
+
+section.stand tbody tr td:nth-child(1) {
+	width: 15%;
+	border-right: 1px solid grey;
+}
+
+section.stand tbody tr td:nth-child(2) {
+	width: 70%;
+	border-right: 1px solid grey;
+}
+
+/**/
+
+section.info {
+	margin-left: 5%;
+}
+
+section.info h1 {
+	color: green;
+	font-family: Calibri bold, sans-serif;
+	font-size: 25pt;
+
+	margin-top: 30px;
+}
+
+section.info h2 {
+	color: green;
+	font-family: Calibri bold, sans-serif;
+	font-size: 10pt;
+	margin-top: 10px;
+}
+
+section.info h3 {
+	color: black;
+	font-family: Calibri light, sans-serif;
+	font-size: 10pt;
+	margin-left: 10px;
+}
+
+b {
+	color: green;
+	font-family: Calibri bold, sans-serif; 
+}
+
+section.info p {
+	color: black;
+	font-family: Calibri light, sans-serif;
+	font-size: 10pt;
+}
+
+section.info hr {
+	height: 3px;
+	color: green;
+	background-color: green;
+	border-width: 0;
+}
+
+/**/
+
+section.bus h2 {
+	color: black;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 20pt;
+	text-align: right;
+	padding: 10px;
+}
+
+section.bus h1 {
+	color: black;
+	font-family: Calibri, sans-serif;
+	font-size: 80pt;
+	text-align: right;
+}
+
+/**/
+
+section.box {
+	width: 180px;
+	float: right;
+	background-color: lavender;
+	border-radius: 15px;
+	padding: 12px;
+
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	text-align: left;
+}
+
+/**/
+
+section.routes {
+	margin-top: 100px;
+	margin-left: 10px;
+	width: 100%;
+}
+
+section.routes header {
+	border-bottom: 2px solid blue;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+section.routes table {
+	width: 100%;
+}
+
+section.routes tbody tr td:nth-child(1) {
+	width: 15%;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 27pt;
+	text-align: left;
+}
+
+section.routes tbody tr td:nth-child(2) {
+	width: 70%;
+	font-family: Calibri, sans-serif;
+	font-size: 10pt;
+	text-align: left;
+}
+
+section.routes b {
+	font-weight: bold;
+	color: black;
+}
+
+img {
+	float: right;
+	width: 30px;
+	height: 30px;
+}
+
+
