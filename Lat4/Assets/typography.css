@@ -1,0 +1,53 @@
+.main {
+	text-align: justify;
+	hyphens: auto;
+}
+
+.deck {
+	font-family: 'Minion Pro', serif;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.note {
+	font-family:'Minion Pro', serif;
+	font-style: italic;
+	font-size: 1em;
+}
+
+.quote {
+	font-family:'Minion Pro', serif;
+	font-style: medium;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+table, td, th {
+	font-family: 'Minion Pro', serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: bold;
+	font-size: 7.3em;
+	line-height: 0.9em;
+}
+
+h2 {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: bold;
+	font-size: 3.2em;
+} 
+
+h3 {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: bold;
+	font-size: 1.45em;
+}
+
+p {
+	font-family: 'Minion Pro', serif;
+	font-size: 1em;
+}
