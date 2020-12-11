@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <!-- CSS -->
+    <link href="css/about-us.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="navbar-wrapper">
+            <img src="./assets/images/Logo/logo-WWD_en_304x140.png">
+            <div class="nav-content">
+                <a href="home.html">Home</a>
+                <a href="get-involved.html">Get Involved</a>
+                <a>Events</a>
+                <a>Material</a>
+                <a>Film Festival</a>
+                <a>Messages</a>
+                <a>Media</a>
+            </div>
+        </div>
+        <div class="toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <!-- About -->
+    <section class="wrapper">
+        <div class="content-wrapper">
+            <button class="btn-about"><a href="home.html">Back</a></button>
+            <div class="image">
+                <img src="assets/images/About%20Us.png">
+            </div>
+            <div class="description">
+                <h1>ABOUT US</h1>
+                <p>
+                    On 20 December 2013, at its 68th session, the United Nations General Assembly (UNGA) proclaimed 3
+                    March –
+                    the day of signature of the Convention on International Trade in Endangered Species of Wild Fauna
+                    and Flora
+                    (CITES) in 1973 – as UN World Wildlife Day to celebrate and raise awareness of the world’s wild
+                    animals
+                    and plants.
+                    <br><br>
+                    The UNGA resolution also designated the CITES Secretariat as the facilitator for the global
+                    observance of
+                    this special day for wildlife on the UN calendar. World Wildlife Day has now become the most
+                    important
+                    global annual event dedicated to wildlife.
+                    <br><br>
+                    World Wildlife Day will be celebrated in 2020 under the theme "Sustaining all life on Earth",
+                    encompassing
+                    all wild animal and plant species as key components of the world's biodiversity. This aligns with UN
+                    Sustainable Development Goals 1, 12, 14 and 15, and their wide-ranging commitments on alleviating
+                    poverty,
+                    ensuring sustainable use of resources, and on conserving life both on land and below water to halt
+                    biodiversity loss.
+                    <br><br>
+                    Earth is home to countless species of fauna and flora – too many to even attempt counting. This rich
+                    diversity, and the billions of years during which its myriad elements have interacted, are precisely
+                    what
+                    has made our planet inhabitable for all living creatures, including humans. Historically, we have
+                    depended
+                    on the constant interplay and interlinkages between all elements of the biosphere for all our needs:
+                    the
+                    air we breathe, the food we eat, the energy we use, and the materials we need for all purposes.
+                    However,
+                    unsustainable human activities and overexploitation of the species and natural resources that make
+                    up the
+                    habitats and ecosystems of all wildlife are imperiling the world’s biodiversity. Nearly a quarter of
+                    all
+                    species are presently at risk of going extinct in the coming decades, and their demise would only
+                    speed up
+                    the disappearance of countless others, putting us in danger as well.
+                    <br><br>
+                    On World Wildlife Day 2020, we will celebrate the special place of wild plants and animals in their
+                    many
+                    varied and beautiful forms as a component of the world’s biological diversity. We will work to raise
+                    awareness of the multitude of benefits of wildlife to people, particularly to those communities who
+                    live in closest proximity to it, and we will discuss the threats they are facing and the urgent need
+                    for
+                    governments, civil society, private sector actors and individuals to add their voices and take
+                    actions to
+                    help conserve wildlife and ensure its continued use is sustainable.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="upper-content">
+                <div class="upper-content1">
+                    <h4 class="upper-content-title">Cites Secretariat</h4>
+                    <div class="upper-content1-message">
+                        <p>11 Chemin des Anemones</p>
+                        <p>CH-1219 Chatelaine, Geneva</p>
+                        <p>wildlifeday[at]cites.org</p>
+                    </div>
+                </div>
+                <div class="upper-content2">
+                    <h4 class="upper-content-title">Partners :</h4>
+                    <div class="upper-content2-img-wrapper">
+                        <img class="wwf" src="./assets/images/Logo/WWF-01.png" alt="WWF Logo">
+                        <img class="undp" src="./assets/images/Logo/undp.png" alt="UNDP">
+                        <img class="sos" src="./assets/images/Logo/SOS logo.png" alt="SOS Logo">
+                    </div>
+                </div>
+                <div class="upper-content3">
+                    <h4 class="upper-content-title">Subscribe </h4>
+                    <div class="upper-content3-input">
+                        <input type="email" placeholder="Your Email">
+                        <button class="upper-content3-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-content">
+                <h4 class="bottom-content-title">This site is managed by the CITES Secretariat | Designed by Tarisha |
+                    art.isha.com</h4>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const menutoggle = document.querySelector('.toggle input');
+        const nav = document.querySelector('.header .navbar-wrapper .nav-content');
+
+        menutoggle.addEventListener('click', function () {
+            nav.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

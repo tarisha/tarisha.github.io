@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ivonne Higuero</title>
+    <!-- CSS -->
+    <link href="css/people.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/typography.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="navbar-wrapper">
+            <img src="./assets/images/Logo/logo-WWD_en_304x140.png">
+            <div class="nav-content">
+                <a href="home.html">Home</a>
+                <a href="get-involved.html">Get Involved</a>
+                <a>Events</a>
+                <a>Material</a>
+                <a>Film Festival</a>
+                <a>Messages</a>
+                <a>Media</a>
+            </div>
+        </div>
+        <div class="toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <!-- People Said -->
+    <section class="wrapper">
+        <div class="content-wrapper">
+            <button class="btn-people"><a href="home.html">Back</a></button>
+            <div class="image">
+                <img src="assets/images/Ivonne.jpg">
+            </div>
+            <div class="description">
+                <h1>Ivonne Higuero</h1>
+                <p id="degree">Secretary-General CITES Secretariat</p>
+                <p>
+                    We are extremely fortunate to count on the presence of an endless diversity of wild animals, plants,
+                    and other lifeforms that together make up life on our planet. Humans around the world benefit every
+                    single day from wildlife. In many ways, our history is the story of our species’ interaction with,
+                    and
+                    adaptation to, the diverse lifeforms present in our close vicinity. Since time immemorial, we have
+                    used
+                    wild plants and animals for out most basic needs: from the air we breathe, to the food we eat, to
+                    the
+                    materials we use for shelter and comfort.
+                    <br><br>
+                    The human well-being and prosperity that is derived from the direct exploitation of wildlife,
+                    habitats
+                    and ecosystems should not be to the detriment of the building blocks of a rich and diverse
+                    biosphere.
+                    The Convention on International Trade of Endangered Species of Fauna and Flora (CITES) was agreed in
+                    1973 to avoid this by regulating international trade in wildlife and ensure that this trade is
+                    legal,
+                    sustainable and traceable.
+                    <br><br>
+                    More and more, however, the unsustainable exploitation of wild fauna and flora and their ecosystems
+                    is
+                    threatening their survival. Every single piece of the puzzle of life is essential and losing even
+                    the
+                    smallest of these pieces leaves us, and the entire planet, poorer. When human actions endanger
+                    hundreds
+                    of thousands of species, as they are doing today, it is the entire biosphere - of which we too are a
+                    part - that is threatened.
+                    <br><br>
+                    We now face the immense challenge of living in harmony with nature so that we can fulfill our own
+                    needs without neglecting those of the many lifeforms with which we share this planet on sea,
+                    land and air.
+                    <br><br>
+                    The inclusion of endangered species in the CITES Appendices, the conservation efforts undertaken by
+                    our Parties, and the added endeavors of partners in other Conventions or organizations working on
+                    biodiversity and development helps to counteract the loss of biodiversity on the planet.
+                    <br><br>
+                    However, transformative changes are needed as we find ourselves at a critical turning point both for
+                    our species and for the entire biosphere. Now more than ever we must come together in a joint effort
+                    to sustain all life on Earth.
+                    <br><br>
+                    We are proud to do our part in advocating for a responsible and sustainable use of wildlife to
+                    conserve
+                    our world’s biodiversity. CITES is proud to host this year’s World Wildlife Day with the theme
+                    "Sustaining all life on Earth", and we invite all of the planet’s citizens to join us in the
+                    celebration
+                    of one of the milestones of this “Biodiversity Super Year”.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="upper-content">
+                <div class="upper-content1">
+                    <h4 class="upper-content-title">Cites Secretariat</h4>
+                    <div class="upper-content1-message">
+                        <p>11 Chemin des Anemones</p>
+                        <p>CH-1219 Chatelaine, Geneva</p>
+                        <p>wildlifeday[at]cites.org</p>
+                    </div>
+                </div>
+                <div class="upper-content2">
+                    <h4 class="upper-content-title">Partners :</h4>
+                    <div class="upper-content2-img-wrapper">
+                        <img class="wwf" src="./assets/images/Logo/WWF-01.png" alt="WWF Logo">
+                        <img class="undp" src="./assets/images/Logo/undp.png" alt="UNDP">
+                        <img class="sos" src="./assets/images/Logo/SOS logo.png" alt="SOS Logo">
+                    </div>
+                </div>
+                <div class="upper-content3">
+                    <h4 class="upper-content-title">Subscribe </h4>
+                    <div class="upper-content3-input">
+                        <input type="email" placeholder="Your Email">
+                        <button class="upper-content3-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-content">
+                <h4 class="bottom-content-title">This site is managed by the CITES Secretariat | Designed by Tarisha |
+                    art.isha.com</h4>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const menutoggle = document.querySelector('.toggle input');
+        const nav = document.querySelector('.header .navbar-wrapper .nav-content');
+
+        menutoggle.addEventListener('click', function () {
+            nav.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>

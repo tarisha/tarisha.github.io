@@ -1,0 +1,326 @@
+/** Landing **/
+.landing {
+  display: flex;
+  background-image: url(../assets/images/Ilustrasi/Desktop_Get_Involved-07.png);
+  background-color: #0d2b38;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content-landing {
+  color: #f6c24f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  margin: auto;
+  text-align: center;
+}
+
+.content-landing h1 {
+  font-size: 85.9px;
+}
+
+/** Campaign **/
+.campaign {
+  display: flex;
+  background-color: #0d2b38;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content-campaign {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+}
+
+.how-to {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-top: 2%;
+}
+
+.steps {
+  display: flex;
+  padding-top: 10%;
+}
+
+.steps .content-steps {
+  margin-right: 10px;
+}
+
+.steps .content-steps .icon .iconify {
+  color: #00a670;
+  width: 56.25px;
+  height: 50px;
+}
+
+.steps .content-steps .title p {
+  padding-bottom: 5%;
+}
+
+.poster {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.poster .image {
+  width: 80%;
+}
+
+.poster .image img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+/** Events **/
+.events {
+  display: flex;
+  background-color: #091f29;
+  background-size: cover;
+}
+
+.events .wrapper {
+  padding: 5% 0 5% 0;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.events .wrapper .title p {
+  padding-bottom: 5%;
+}
+
+.content-events {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content-events .box-event {
+  flex: 1 33.3%;
+  padding: 10px;
+  display: none;
+  position: relative;
+  /*min-width: 370px;*/
+  /*min-height: 272px;*/
+}
+
+.content-events .box-event .overlay {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*height: 100%;*/
+  /*width: 370px;*/
+  /*height: 200px;*/
+  opacity: 0;
+  border-radius: 5%;
+  transition: 0.5s ease;
+  background-color: grey;
+  padding: 25px;
+}
+
+.box-event:hover .overlay {
+  opacity: 0.7;
+}
+
+.box-event .text {
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: justify;
+}
+
+.content-events .box-event img {
+  width: 100%;
+  border-radius: 5%;
+  max-width: 370px;
+  max-height: 200px;
+}
+
+.button-load-more {
+  margin-top: 20px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #00a670;
+}
+
+.button-load-less {
+  margin-top: 20px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #00a670;
+}
+
+/** Protection **/
+.protect {
+  display: flex;
+  background-color: #0d2b38;
+  background-size: cover;
+  height: auto;
+  flex-direction: row;
+}
+
+.protect .wrapper {
+  padding: 5% 0 5% 0;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.protect .wrapper .title p {
+  padding-bottom: 5%;
+  color: #00a670;
+}
+
+.collapse {
+  width: 80%;
+  text-align: center;
+  padding: 5%;
+}
+
+.collapsible {
+  background-color: #00a670;
+  color: white;
+  cursor: pointer;
+  padding: 22.6px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 2px solid #0d2b38;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.active,
+.collapsible:hover {
+  background-color: #00a670;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0 18px;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #0d2b38;
+  color: #fefbdf;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1366px) {
+  /*.collapsible .content {*/
+  /*    width: 370px;*/
+  /*    height: 200px;*/
+  /*}*/
+}
+
+@media (max-width: 800px) {
+  /** Landing **/
+  .landing {
+    background: url(../assets/images/Ilustrasi/Mobile_Get_Involved-04.png)
+      center;
+    background-color: #0d2b38;
+    background-size: cover;
+  }
+
+  .content-landing h1 {
+    font-size: 42.9px;
+  }
+
+  /** Campagign **/
+  .campaign {
+    flex-direction: column;
+    height: auto;
+  }
+  .content-campaign {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .steps {
+    flex-direction: column;
+  }
+  /** Events **/
+  .events .wrapper {
+    flex-direction: column;
+  }
+
+  .content-events {
+    flex-direction: column;
+  }
+
+  .content-steps {
+    padding-top: 5%;
+    width: 100%;
+  }
+
+  .poster {
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+  }
+
+  .poster .image {
+    text-align: center;
+  }
+
+  .poster .image img {
+    width: 100%;
+  }
+
+  /*.content-events .box-event .overlay {*/
+  /*    opacity: 0.7;*/
+  /*    width: 282px;*/
+  /*    height: 150px;*/
+  /*}*/
+
+  /** Protection **/
+  .protect .wrapper .title {
+    text-align: center;
+  }
+
+  .collapse {
+    width: 100%;
+  }
+
+  .collapsible {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+}

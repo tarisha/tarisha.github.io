@@ -1,0 +1,157 @@
+/** About Us **/
+.content-about .description p {
+  font-size: 18px;
+  font-family: proximaSoft-Semibold;
+}
+
+.content-about .button button {
+  font-family: proximaSoft-Semibold;
+  font-size: 15px;
+  color: white;
+}
+
+/** Message **/
+.message .outer-wrapper .content-wrapper p {
+  font-family: proximaSoft-Semibold;
+}
+
+.content-wrapper .wrapper-people .text p {
+  font-family: proximaSoft-ExtraBold;
+  font-size: 18px;
+}
+
+.content-wrapper .wrapper-people .text p b {
+  font-family: proximaSoft-Semibold;
+}
+
+/** Explore **/
+.content-explore .title {
+  font-family: homeTown;
+  color: #f6c24f;
+  font-size: 25px;
+}
+
+.content-explore .description {
+  font-family: proximaSoft-Regular;
+  color: darkgrey;
+  font-size: 15px;
+}
+
+/** Events **/
+.content-wrapper .description h1 {
+  font-size: 60.7px;
+  color: #00a670;
+  text-align: center;
+}
+
+.content-wrapper .description #degree {
+  font-size: 22.6px;
+  font-weight: bold;
+  font-family: proximaSoft-Semibold;
+  text-align: center;
+}
+
+.content-wrapper .description p {
+  font-size: 16px;
+  font-family: proximaSoft-Semibold;
+  text-align: justify;
+}
+
+.btn-people a {
+  font-family: proximaSoft-Bold;
+  text-decoration: none;
+  color: #000;
+}
+
+/** Campaign **/
+.how-to .title {
+  color: #00a670;
+  font-size: 42.9px;
+  font-family: homeTown;
+}
+
+.how-to .description p {
+  color: #fefbdf;
+  font-size: 16px;
+  font-family: proximaSoft-Bold;
+}
+
+.steps .content-steps .title p {
+  font-family: proximaSoft-ExtraBold;
+  color: #fefbdf;
+  font-size: 22.6px;
+}
+
+.content-steps .description p {
+  font-family: proximaSoft-Regular;
+  font-size: 16px;
+  color: #fefbdf;
+}
+
+/** Page Get Involved - Events **/
+.events .wrapper .title p {
+  font-size: 22.6px;
+  color: #fefbdf;
+  text-align: center;
+  font-family: proximaSoft-ExtraBold;
+}
+
+.content-events .box-event .overlay {
+  color: #fefbdf;
+  font-family: proximaSoft-Regular;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.button-load-more {
+  font-family: proximaSoft-Semibold;
+  font-size: 16px;
+  color: white;
+}
+
+.button-load-less {
+  font-family: proximaSoft-Semibold;
+  font-size: 16px;
+  color: white;
+}
+
+/** Protection **/
+.protect .wrapper .title p {
+  font-size: 60.7px;
+  color: #00a670;
+  font-family: homeTown;
+}
+
+.protect .wrapper .description p {
+  text-align: center;
+  font-size: 16px;
+  color: #fefbdf;
+  font-family: proximaSoft-Regular;
+}
+
+.collapsible p {
+  text-align: center;
+  font-family: proximaSoft-ExtraBold;
+}
+
+.content p {
+  font-family: proximaSoft-Regular;
+}
+
+/** Footer **/
+.upper-content .upper-content-title {
+  font-family: homeTown;
+  font-size: 22.6px;
+}
+
+.upper-content1 .upper-content1-message p {
+  font-family: proximaSoft-Regular;
+  font-size: 16px;
+}
+
+.bottom-content .bottom-content-title {
+  font-family: proximaSoft-Black;
+  text-transform: none;
+  font-size: 16px;
+  text-align: center;
+}
